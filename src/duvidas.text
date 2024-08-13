@@ -1,0 +1,36 @@
+/* é possivel fazer uma função para esse tipo de bloco
+
+
+Blockly.Blocks['operacao_subtracao'] = {
+  init:function (){
+    this.JsonInit({
+      message0:'operacao Subtração %1-%2',
+      args0:[
+        {
+          type:'field_number',
+          name:"Num1",
+          value:0,
+          min:0,
+          precision:1,
+        },
+        {
+          type:'field_number',
+          name:"Num2",
+          value:0,
+          main:0,
+          precision:1
+        },
+      ],
+      output:'chek',
+      style:'list_blocks',
+      
+    })
+  }
+};
+
+
+/* problemas de funcionamento: Se colocar o bloco de divisão primeiro e depois os demais blocos, 
+os resultados dos outros não mostra;
+  Se colocar os blocos de multi; sub e soma (ok) mostra, entretanto colocando o de divisão não. 
+*/
+
