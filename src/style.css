@@ -1,0 +1,22 @@
+body{
+  /*background-color: aquamarine;*/
+
+}
+h1{
+  text-align: center;
+ 
+}
+#generatedCodeContainer {
+  flex-grow: 1;
+  resize: none;
+}
+
+.region {
+  flex-grow: 1;
+  height: 0;
+
+}
+
+#outputDiv {
+  margin-top: 20px;
+}
